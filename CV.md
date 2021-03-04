@@ -1,15 +1,15 @@
  ### Personal data  
- __Name&Surname__ 
+ __Name&Surname__ \
  _Alex Semiglazov_.
  
 __Contacts for communication__ 
 * _GitHub: semiglazov-tes_;
-* _Email: semiglazov_tes@mail.ru_;
+* _Email: semiglazov_tes@mail.ru_.
 
 __Briefly about yourself__  
 _My main goal is to move from energy to IT and become a web developer. In achieving this goal, I am helped by such character traits as dedication and patience in achieving the result. I have no experience in commercial development at the moment. To improve my competencies, I develop my own pet projects_.
 
-__Hard Skills__:
+__Hard Skills__
 
 ___Python___:_Basic knowledge Python 3 and Python libraries and frameworks: Flask, Вeatiful Soup, Requests,Selenium,Reg_.
 
@@ -316,11 +316,11 @@ display_auth_login = function (event) {
 }
 display_auth_login();
 ```
-__Experience__
+__Experience__\
 _At the moment I have no experience in industrial development_.
 
-__Education__
+__Education__\
 _Yandex Practicum course- Development on Python_.
 
-__English level__
+__English level__\
 _A0_.
