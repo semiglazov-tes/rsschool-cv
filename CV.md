@@ -324,4 +324,3 @@ _Yandex Practicum course- Development on Python_.
 
 __English level__\
 _A0_.
-
