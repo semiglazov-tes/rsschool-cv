@@ -5,12 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
     <section class="cv_container">
-        <div></div>
+        <header class="cv_container">Curriculum vitae</header>
+        <section class="personal_data">
+            <header id="personal_data">Personal data</header>
+            <img class="cv_avatar" src="cv_avatar.jpg" alt="cv_avatar">
+            <p class="personal_data">
+                <header class="personal_data">Name&Surname</header><br> Alex Semiglazov.
+            </p>
+            <p class="personal_data">
+                <header class="personal_data">Contacts for communication</header><br>
+                <address class="personal_data">GitHub: semiglazov-tes;</address><br>
+                <address class="personal_data">Email: semiglazov_tes@mail.ru.</address>
+            </p>
+        </section>
+        <section class="briefly_about_yourself">
+            <p class="briefly_about_yourself">
+                <header class="briefly_about_yourself">Briefly about yourself</header><br> My main goal is to move from energy to IT and become a web developer. In achieving this goal, I am helped by such character traits as dedication and patience in achieving the result. I have no experience
+                in commercial development at the moment. To improve my competencies, I develop my own pet projects.
+            </p>
+        </section>
+        <section class="hard_skills">
+            <header id="hard_skills">Hard skills</header>
+            <p class="hard_skills">
+                <header class="hard_skills">Python:</header>
+                Basic knowledge Python 3 and Python libraries and frameworks: Flask, Вeatiful Soup, Requests,Selenium,Reg.
+            </p>
+            <p class="hard_skills">
+                <header class="hard_skills">WEB:</header>
+                Basic knowledge HTML5, CSS3 and JavaScript.
+            </p>
+            <p class="hard_skills">
+                <header class="hard_skills">C#:</header>
+                Experience in developing console applications as well as developing web applications using the MVC5 framework.
+            </p>
+            <p class="hard_skills">
+                <header class="hard_skills">Database:</header>
+                Experience with MS SQL and writing queries using the SQL language.
+            </p>
+        </section>
+        <section class="code_examples">
+            <header id="code_examples">Code Examples</header>
+            <p class="code_examples">
+                <header class="code_examples">Python:</header><br>
+                <code class="python">
+                if request.method=="POST":<br>
+                response=request.get_json()<br>
+                chat_id=response["message"]["chat"]["id"]<br>
+                message=response["message"]["text"]<br>
+                if "/start" == message:<br>
+                    send_messages(chat_id)<br>
+                patern = re.fullmatch(r'[А-Яа-я()]{1,10}\-{0,1}[А-Я-а-яA-Za-z]{0,7}\s\d{0,2}х\d{0,3}\,{0,1}\d{0,3}', message)<br>
+                if patern != None:
+                    info=str(dictionaty_cabel_parametr(cable_parametr,get_cabel_parametr(google_site_page_open(message),cable_parametr)))<br>
+                    send_messages(chat_id,text=info)<br>
+                elif patern == None and "/start" != message :<br>
+                    send_messages(chat_id, text="Чувак ты вводишь маркировку кабеля некорректно")<br>
+                return jsonify(response)<br>
+                return "Bot wellcome you!"
+                </code>
+            </p>
+        </section>
+        <section class="experience">
+            <header id="experience">Experience</header>
+            <p class="experience">
+                At the moment I have no experience in industrial development.
+            </p>
+        </section>
+        <section class="education">
+            <header id="education">Education</header>
+            <p class="education">
+                Yandex Practicum course- Development on Python.
+            </p>
+        </section>
+        <section class="level">
+            <header id="level">English level</header>
+            <p class="level">
+                А0.
+            </p>
+        </section>
     </section>
 </body>
 
