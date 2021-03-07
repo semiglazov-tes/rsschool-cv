@@ -1,0 +1,76 @@
+* {
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.cv_container {
+    width: auto;
+    margin: 0 auto;
+}
+
+header.cv_container {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+}
+
+section.personal_data {
+    position: relative;
+    margin-top: 20px;
+}
+
+address.personal_data {
+    display: inline;
+    width: auto;
+    font-style: normal;
+}
+
+img.cv_avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+p.personal_data {
+    display: inline-block;
+    margin: 0px;
+    width: auto;
+}
+
+p.briefly_about_yourself {
+    text-align: left;
+}
+
+#hard_skills,
+#personal_data,
+#code_examples,
+#experience,
+#education,
+#level {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p.hard_skills,
+p.code_examples,
+p.experience,
+p.education,
+p.level {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+code.python {
+    display: inline-block;
+    text-align: left;
+    margin-left: 120px;
+}
